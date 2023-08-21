@@ -8,7 +8,7 @@ public class inputOfArray {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         // declaring a array
-        int[] arr = new int[10];
+        int[] arr = new int[n];
         // taking input from user
         for (int i = 0; i < n; i++) {
             System.out.println("enter your element" + i + "th index");
